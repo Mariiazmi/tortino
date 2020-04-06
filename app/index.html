@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tortino</title>
+    <link rel="shortcut icon" href="/img/icons/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <!-- start header -->
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__box">
+                            <a class="logo" href="#">
+                                <img src="img/icons/cake.svg" alt="logo">
+                            </a>
+                            <nav class="header__menu">
+                                <div class="header__burger">
+                                    <span class="burger-top"></span>
+                                    <span class="burger-middle"></span>
+                                    <span class="burger-bottom"></span>
+                                </div>
+                                <ul class="header__list">
+                                    <li><a href="#our-cakes">Наші торти</a></li>
+                                    <li><a href="#order">Індивідуальне замовлення</a></li>
+                                    <li><a href="#reviews">Відгуки</a></li>
+                                    <li><a href="#about">Про нас</a></li>
+                                    <li><a href="#how-to-order">Як замовити</a></li>
+                                    <li><a href="#contacts">Контакти</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <a class="header__tel" href="tel:380679322088">+3 (8067) 93-22-088</a>
+                    </div>
+                </div>
+            </header>
+            <!-- end header -->
+
+            <!-- start banner -->
+            <section class="banner">
+                <div class="banner__inner">
+                    <div class="container">
+                        <div class="banner__text wow fadeIn">
+                            <h1 class="banner__title">Торти на замовлення</h1>
+                            <span class="banner__subtitle">Ручна робота</span>
+                            <a href="" class="btn">Вибрати торт</a>
+                        </div>
+                        <div class="banner__presents">
+                            <span class="banner__natural">Натуральні інгрідієнти</span>
+                            <span class="banner__delivery">Безкоштовна доставка при замовленні від 1000 грн.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__img wow fadeIn">
+                    <img src="img/content/banner-cake.png" alt="">
+                </div>
+            </section>
+            <!-- end banner -->
+            <!-- start types of cakes -->
+            <section class="cakes" id="our-cakes">
+                <div class="container">
+                    <h2 class="section__title">Наші торти</h2>
+                    <div class="cakes__box">
+                        <div class="cakes__column cakes__column-wide">
+                            <div class="cakes__item cakes__item-big wow fadeIn"
+                                style="background-image: url(img/content/classic.jpg);">
+                                <a class="cakes__item-title" href="#">Класичні</a>
+                                <span class="cakes__item-number">24 види</span>
+                                <a class="cakes__item-watch" href="#">Переглянути</a>
+                            </div>
+                        </div>
+                        <div class="cakes__column cakes__column-tigth">
+                            <div class="cakes__item wow fadeIn" style="background-image: url(img/content/muss.jpg);">
+                                <a class="cakes__item-title" href="#">Мусові</a>
+                                <span class="cakes__item-number">12 видів</span>
+                                <a class="cakes__item-watch" href="#"></a>
+                            </div>
+                            <div class="cakes__item wow fadeIn" style="background-image: url(img/content/wedding.jpg);">
+                                <a class="cakes__item-title" href="#">Весільні</a>
+                                <span class="cakes__item-number">20 видів</span>
+                                <a class="cakes__item-watch" href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cakes__box">
+                        <div class="cakes__column cakes__column-tigth">
+                            <div class="cakes__item wow fadeIn" style="background-image: url(img/content/men.jpg);">
+                                <a class="cakes__item-title" href="#">Чоловічі</a>
+                                <span class="cakes__item-number">12 видів</span>
+                                <a class="cakes__item-watch" href="#"></a>
+                            </div>
+                            <div class="cakes__item wow fadeIn" style="background-image: url(img/content/women.jpg);">
+                                <a class="cakes__item-title" href="#">Жіночі</a>
+                                <span class="cakes__item-number">16 видів</span>
+                                <a class="cakes__item-watch" href="#"></a>
+                            </div>
+                        </div>
+                        <div class="cakes__column cakes__column-wide">
+                            <div class="cakes__item cakes__item-big wow fadeIn"
+                                style="background-image: url(img/content/kids-1.png);">
+                                <a class="cakes__item-title" href="#">Дитячі</a>
+                                <span class="cakes__item-number">18 видів</span>
+                                <a class="cakes__item-watch" href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end types of cakes -->
+
+            <!-- start order -->
+            <section class="order" id="order">
+                <div class="container">
+                    <h2 class="section__title">Індивідуальне замовлення</h2>
+                    <span class="section__subtitle">Зберіть торт в 3 кроки</span>
+                    <div class="order__item wow fadeIn">
+                        <span class="order__item-title">01 Виберіть начинку</span>
+                        <div class="order__item-slider">
+                            <div class="order__item-slide">
+                                <div class="order__item-img"
+                                    style="background-image: url(img/content/choco-inner.jpg);"></div>
+                                <div class="order__item-info">
+                                    <span class="order__item-name">Шоколадний ганаш</span>
+                                    <p class="order__item-text">Ароматний шоколадний бісквіт, густий шоколадний крем -
+                                        найшоколадніший шоколад!</p>
+                                    <span class="order__item-price">500 грн/кг</span>
+                                    <a href="" class="btn">Вибрати</a>
+                                </div>
+                            </div>
+                            <div class="order__item-slide">
+                                <div class="order__item-img" style="background-image: url(img/content/nuts.jpg);"></div>
+                                <div class="order__item-info">
+                                    <span class="order__item-name">Шоколадний ганаш</span>
+                                    <p class="order__item-text">Ароматний шоколадний бісквіт, густий шоколадний крем -
+                                        найшоколадніший шоколад!</p>
+                                    <span class="order__item-price">500 грн/кг</span>
+                                    <a href="" class="btn">Вибрати</a>
+                                </div>
+                            </div>
+                            <div class="order__item-slide">
+                                <div class="order__item-img" style="background-image: url(img/content/cream.jpg);">
+                                </div>
+                                <div class="order__item-info">
+                                    <span class="order__item-name">Шоколадний ганаш</span>
+                                    <p class="order__item-text">Ароматний шоколадний бісквіт, густий шоколадний крем -
+                                        найшоколадніший шоколад!</p>
+                                    <span class="order__item-price">500 грн/кг</span>
+                                    <a href="" class="btn">Вибрати</a>
+                                </div>
+                            </div>
+                            <div class="order__item-slide">
+                                <div class="order__item-img" style="background-image: url(img/content/snikers.jpg);">
+                                </div>
+                                <div class="order__item-info">
+                                    <span class="order__item-name">Шоколадний ганаш</span>
+                                    <p class="order__item-text">Ароматний шоколадний бісквіт, густий шоколадний крем -
+                                        найшоколадніший шоколад!</p>
+                                    <span class="order__item-price">500 грн/кг</span>
+                                    <a href="" class="btn">Вибрати</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order__item wow fadeIn">
+                        <span class="order__item-title">02 <br> Розмір</span>
+                        <div class="order__size-box">
+                            <div class="order__size-item">
+                                <div class="order__size-img-box">
+                                    <img src="img/content/1kg.png" alt="" class="order__size-img">
+                                    <span class="order__size-kg">1 кг</span>
+                                </div>
+                                <span class="order__size-info">17-18 см</span>
+                                <span class="order__size-info">(1 кг - 6 персон)</span>
+                            </div>
+                            <div class="order__size-item">
+                                <div class="order__size-img-box">
+                                    <img src="img/content/2kg.png" alt="" class="order__size-img">
+                                    <span class="order__size-kg">2 кг</span>
+                                </div>
+                                <span class="order__size-info">23-24 см</span>
+                                <span class="order__size-info">(10-12 персон)</span>
+                            </div>
+                            <div class="order__size-item">
+                                <div class="order__size-img-box">
+                                    <img src="img/content/5kg.png" alt="" class="order__size-img">
+                                    <span class="order__size-kg">5 кг</span>
+                                </div>
+                                <span class="order__size-info">Два яруси 25 і 20 см</span>
+                                <span class="order__size-info">(15-20 персон)</span>
+                            </div>
+                            <div class="order__size-item">
+                                <div class="order__size-img-box">
+                                    <img src="img/content/8kg.png" alt="" class="order__size-img">
+                                    <span class="order__size-kg">8 кг</span>
+                                </div>
+                                <span class="order__size-info">Три яруси 30, 25 і 18 см</span>
+                                <span class="order__size-info">(25-30 персон)</span>
+                            </div>
+                        </div>
+                        <div class="order__button-box">
+                            <a href="" class="btn">Вибрати</a>
+                        </div>
+                    </div>
+                    <div class="order__item wow fadeIn">
+                        <div class="order__item-decor">
+                            <span class="order__item-title">03 Оформлення</span>
+                            <div class="order__decor-box">
+                                <div class="order__decor-item">
+                                    <a class="order__decor-img" style="background-image: url(img/content/cake-1.jpg);"
+                                        href="#"></a>
+                                    <a class="order__decor-title" href="#">Ягідне асорті</a>
+                                    <span class="order__decor-price">200 грн/кг</span>
+                                </div>
+                                <div class="order__decor-item">
+                                    <a class="order__decor-img" style="background-image: url(img/content/cake-2.jpg);"
+                                        href="#"></a>
+                                    <a class="order__decor-title" href="#">Маршмеллоу</a>
+                                    <span class="order__decor-price">300 грн/кг</span>
+                                </div>
+                                <div class="order__decor-item">
+                                    <a class="order__decor-img" style="background-image: url(img/content/cake-3.jpg);"
+                                        href="#"></a>
+                                    <a class="order__decor-title" href="#">Шоколад</a>
+                                    <span class="order__decor-price">200 грн/кг</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order__button-box">
+                            <a href="#" class="btn">Вибрати</a>
+                        </div>
+                        <div class="order__summary">
+                            <div class="order__summary-title">Ваш вибір</div>
+                            <form action="" class="order__summary-form">
+                                <div class="order__summary-col">
+                                    <label for="cake-inner">Начинка</label>
+                                    <input type="text" class="order__summary-input" id="cake-inner"
+                                        placeholder="Шоколадний ганаш">
+                                </div>
+                                <div class="order__summary-col">
+                                    <label for="cake-size">Розмір</label>
+                                    <input type="text" class="order__summary-input" id="cake-size" placeholder="2 кг">
+                                </div>
+                                <div class="order__summary-col">
+                                    <label for="cake-decor">Оформлення</label>
+                                    <input type="text" class="order__summary-input" id="cake-decor"
+                                        placeholder="Маршмеллоу">
+                                </div>
+                                <button type="submit" class="btn">Замовити</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end order -->
+
+            <!-- start reviews -->
+            <section class="reviews" id="reviews">
+                <div class="container">
+                    <h2 class="section__title">Відгуки</h2>
+                    <div class="reviews__box wow bounceInLeft">
+                        <div class="reviews__slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-img"
+                                    style="background-image: url(img/content/user-foto.jpg);"></div>
+                                <div class="reviews__item-info">
+                                    <span class="reviews__item-name">Марія</span>
+                                    <span class="reviews__item-title">юрист, 33 роки</span>
+                                    <p class="reviews__item-text">Замовляла торт брауні на ювілей. Гості були вражені!
+                                        Дякуємо за своєчасну доставку! Тепер на одну головну біль менше, в майбутньому
+                                        будемо
+                                        замовляти тільки тут! Бо кожен має займатися свооєю роботою, а Тортіно в цьому
+                                        профі!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews__slide">
+                            <div class="reviews__item">
+                                <div class="reviews__item-img"
+                                    style="background-image: url(img/content/user-foto.jpg);"></div>
+                                <div class="reviews__item-info">
+                                    <span class="reviews__item-name">Марія</span>
+                                    <span class="reviews__item-title">юрист, 33 роки</span>
+                                    <p class="reviews__item-text">Замовляла торт брауні на ювілей. Гості були вражені!
+                                        Дякуємо за своєчасну доставку! Тепер на одну головну біль менше, в майбутньому
+                                        будемо
+                                        замовляти тільки тут! Бо кожен має займатися свооєю роботою, а Тортіно в цьому
+                                        профі!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end reviews -->
+
+            <!-- start about -->
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about__box wow bounceInRight">
+                        <div class="about__info">
+                            <h2 class="section__title">Про нас</h2>
+                            <span class="section__subtitle">Про кондитера</span>
+                            <p class="about__text"><span>Кондитeр - як покликання</span> Павло - професійний кухар в
+                                різних
+                                гастрономічних областях, але одного разу його серце підкорило кондитерське мистецтво. З
+                                ранніх років він захоплювався витонченою майстерністю і звернувся до своїх талантів як
+                                кондитер.</p>
+                            <p class="about__text"><span>Принцип - натуральні інгрідієнти</span>
+                                Сьогодні Павло радує виробами не тільки близьких, але і тих, хто вважає за краще якісну
+                                продукцію для торжества, а головним принципом є вибір натуральних інгредієнтів.</p>
+                            <ul class="socials">
+                                <li><a class="socials__icons socials__icons-inst" href="#"></a></li>
+                                <li><a class="socials__icons socials__icons-fb" href="#"></a></li>
+                                <li><a class="socials__icons socials__icons-pint" href="#"></a></li>
+                            </ul>
+                        </div>
+                        <div class="about__img">
+                            <img src="img/content/cook.jpg" alt="">
+                            <ul class="socials">
+                                <li><a class="socials__icons socials__icons-inst" href="#"></a></li>
+                                <li><a class="socials__icons socials__icons-fb" href="#"></a></li>
+                                <li><a class="socials__icons socials__icons-pint" href="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="about__quote">Я за прості рецепти. В Італії це називають cucina povera: коли звичайні
+                        інгрідієнти перетворюються в прекрасну страву.</p>
+                </div>
+            </section>
+            <!-- end about -->
+
+            <!-- start benefits -->
+            <section class="benefits">
+                <h2 class="section__title">Наші переваги</h2>
+                <span class="section__subtitle">Чому вибирають нас?</span>
+                <div class="benefits__box">
+                    <div class="benefits__img benefits__img-decor wow bounceInLeft">
+                        <img src="img/content/benefits-cake.png" alt="">
+                    </div>
+                    <div class="benefits__info-box">
+                        <div class="benefits__info">
+                            <div class="benefits__item">
+                                <div class="benefits__item-img">
+                                    <img src="img/icons/growth.svg" alt="">
+                                </div>
+                                <div class="benefits__item-text">
+                                    <span>Без штучних барвників</span>
+                                    <p>Працюємо з натуральними інгрідієнтами і свіжими продуктами</p>
+                                </div>
+                            </div>
+                            <div class="benefits__item">
+                                <div class="benefits__item-img">
+                                    <img src="img/icons/fresh-cake.svg" alt="">
+                                </div>
+                                <div class="benefits__item-text">
+                                    <span>Свіжий торт в день свята</span>
+                                    <p>Торти готуються протягом сутки до відправки</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="benefits__box benefits__box-bottom">
+                        <div class="benefits__info">
+                            <h2 class="section__title">Турбота про клієнтів</h2>
+                            <span class="section__subtitle">Для нас важливо</span>
+                            <p class="benefits__text">
+                                Нам важливо щоб кожен торт був бездоганним, як всередині, так і зовні, щоб він був
+                                створений виключно для вас і для вашої події.</p>
+                        </div>
+                        <div class="benefits__img wow bounceInRight">
+                            <img src="img/content/cake-care.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end benefits -->
+
+            <!-- start order steps -->
+            <section class="steps" id="how-to-order">
+                <div class="container">
+                    <h2 class="section__title">Як замовити</h2>
+                    <div class="steps__box">
+                        <div class="steps__item wow fadeIn" data-wow-delay=".5s">
+                            <img src="img/icons/one.svg" alt="" class="steps__img">
+                            <span class="steps__title">Термін доставки</span>
+                            <p class="steps__text">Розміщувати замовлення бажано за 2-3 дня. На вихідні замовлення краще
+                                розміщувати мінімум за тиждень.</p>
+                        </div>
+                        <div class="steps__item wow fadeIn" data-wow-delay="1s">
+                            <img src="img/icons/two.svg" alt="" class="steps__img">
+                            <span class="steps__title">Доставка по місту</span>
+                            <p class="steps__text">Доставка в межах міста 200 рублів, при замовленні на суму більше 2000
+                                доставка безкоштовно.</p>
+                        </div>
+                        <div class="steps__item wow fadeIn" data-wow-delay="1.5s">
+                            <img src="img/icons/three.svg" alt="" class="steps__img">
+                            <span class="steps__title">Доставка за містом</span>
+                            <p class="steps__text">Доставка за межами міста розраховується індивідуально.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end order steps -->
+
+            <!-- start contacts -->
+            <section class="contacts" id="contacts">
+                <div class="container">
+                    <h2 class="section__title">Контакти</h2>
+                    <span class="section__subtitle">Маєте питання?</span>
+                    <div class="contacts__box">
+                        <div class="contacts__box-col wow bounceInLeft">
+                            <span class="contacts__info">Заповніть форму нижче і наш кондитер звяжеться з Вами</span>
+                            <form action="" class="contacts__form">
+                                <input type="text" class="contacts__form-input" placeholder="Ім'я">
+                                <input type="text" class="contacts__form-input" placeholder="Email">
+                                <input type="text" class="contacts__form-input" placeholder="Питання">
+                                <button class="btn" type="submit">Відправити</button>
+                            </form>
+                        </div>
+                        <div class="contacts__box-col wow bounceInRight">
+                            <ul class="contacts__list">
+                                <li>Або подзвоніть по телефону <a href="tel:380671111111">+38 067-11-11-111</a></li>
+                                <li>Наша пошта: <a href="mailto:tortino@gmail.com">tortino@gmail.com</a></li>
+                                <li> Ми в соц мережах:
+                                    <ul class="socials">
+                                        <li><a class="socials__icons socials__icons-inst" href="#"></a></li>
+                                        <li><a class="socials__icons socials__icons-fb" href="#"></a></li>
+                                        <li><a class="socials__icons socials__icons-pint" href="#"></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end contacts -->
+        </div>
+
+        <!-- start footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="logo" href="#">
+                        <img src="img/icons/cake.svg" alt="logo">
+                    </a>
+                    <nav class="footer__menu">
+                        <ul class="footer__list">
+                            <li><a href="#our-cakes">Наші торти</a></li>
+                            <li><a href="#order">Індивідуальне замовлення</a></li>
+                            <li><a href="#reviews">Відгуки</a></li>
+                            <li><a href="#about">Про нас</a></li>
+                            <li><a href="#how-to-order">Як замовити</a></li>
+                            <li><a href="#contacts">Контакти</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer__socials">
+                        <li><a class="footer__social-icon footer__socials-inst" href="#">Instagram</a></li>
+                        <li><a class="footer__social-icon footer__socials-fb" href="#">facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div>
+    <button class="up-button"></button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
